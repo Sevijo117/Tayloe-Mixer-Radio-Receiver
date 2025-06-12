@@ -1,0 +1,37 @@
+.title KiCad schematic
+R7 +5V Smoothed_5V 10
+C15 Smoothed_5V GND 10u
+J3 __J3
+C2 Net-_U1-2OUT_ Net-_U1-2IN-_ 6.37n
+0.1uF1 __0.1uF1
+C14 Smoothed_5V GND 100u
+C12 Net-_J1-In_ Net-_C12-Pad2_ 1.5n
+J1 __J1
+C11 Net-_C10-Pad1_ GND 412p
+L3 Net-_C10-Pad1_ Net-_C12-Pad2_ 383n
+Y1 __Y1
+C10 Net-_C10-Pad1_ Net-_C10-Pad2_ 511p
+L2 GND Net-_C10-Pad1_ 1.43u
+Y2 __Y2
+C6 GND Net-_U1-1IN-_ 16n
+C7 GND Net-_U1-1IN+_ 16n
+C8 GND Net-_U1-2IN+_ 16n
+C5 GND Net-_U1-2IN-_ 16n
+R1 Net-_U1-1OUT_ Net-_U1-1IN-_ 250
+U1 __U1
+R2 Net-_U1-2OUT_ Net-_U1-2IN-_ 250
+R3 Net-_U3-X_ Smoothed_5V 10k
+R4 GND Net-_U3-X_ 10k
+C18 Smoothed_5V GND 0.1u
+C9 GND Smoothed_5V 0.1u
+U3 __U3
+C13 +3.3V GND 22p
+L1 Net-_U3-X_ Net-_C10-Pad2_ 1.15u
+C17 Smoothed_5V GND 220u
+C3 I Net-_U1-1OUT_ 1u
+C4 Q Net-_U1-2OUT_ 1u
+C1 Net-_U1-1OUT_ Net-_U1-1IN-_ 6.37n
+R6 GPIO3 +3.3V 4.7k
+A1 __A1
+R5 GPIO2 +3.3V 4.7k
+.end
